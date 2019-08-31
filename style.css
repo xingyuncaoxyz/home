@@ -12,7 +12,7 @@ body {
     color: #fff;
     font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
     line-height: 1.5;
-    padding: 2em;
+    padding: 0.7em;
 }
 
 h1,h2,h3,h4,h5,h6,a {    
@@ -94,6 +94,12 @@ label, input,{
     } 
     .col {        
         width: 100%;
+    }
+    .clock{
+    font-size: 6vw
+    }
+    h1 {
+    font-size: 0.8em
     }
 }
 
