@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Startpage</title>
+    <title>幸运草</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,50 +16,72 @@
     <br>
     <div class="grid">
         <div class="col">
-            <h3>Learning</h3>
+            <h3>主板</h3>
             <ul id="fav-left">
                 <li>
-                    <a href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn - Coursera</a>
-                    <button
-                        class="removebtn">x</button>
+                    <a href="https://heiban.me/news/">新闻</a>
+                    <button class="removebtn">x</button>
+                </li>
+                <li>
+                    <a href="https://heiban.me/taolun/">讨论</a>
+                    <button class="removebtn">x</button>
+                </li>
+                <li>
+                    <a href="https://heiban.me/tucao/">吐槽</a>
+                    <button class="removebtn">x</button>
                 </li>
             </ul>
             <div id="new-link-button-l">
-                <button class="button">Add link</button>
+                <button class="button">添加链接</button>
             </div>
             <div id="add-link-form-l">
-                <label>Title</label><br /><input id="title-l" placeholder="Title here" /><br /><label>URL</label><br /><input
-                    id="url-l" value="http://" /><br /><button class="button" id="add-left">Save Link</button>
+                <label>主题</label><br /><input id="title-l" placeholder="Title here" /><br /><label>URL</label><br /><input
+                    id="url-l" value="https://heiban.me/" /><br /><button class="button" id="add-left">保存链接</button>
             </div>
         </div>
         <div class="col">
-            <h3>Code</h3>
+            <h3>兴趣</h3>
             <ul id="fav-center">
                 <li>
-                    <a href="https://cmdchallenge.com/">Commandline Challenge</a><button class="removebtn">x</button>
+                    <a href="https://heiban.me/chatu/">插图</a><button class="removebtn">x</button>
+                </li>
+                <li>
+                    <a href="https://heiban.me/game/">游戏</a><button class="removebtn">x</button>
+                </li>
+                <li>
+                    <a href="https://heiban.me/aam/">动漫</a><button class="removebtn">x</button>
+                </li>
+                <li>
+                    <a href="https://heiban.me/shipin/">视频</a><button class="removebtn">x</button>
+                </li>
+                <li>
+                    <a href="https://heiban.me/tv/">影视</a><button class="removebtn">x</button>
+                </li>
+                <li>
+                    <a href="https://heiban.me/aam/">体育</a><button class="removebtn">x</button>
                 </li>
             </ul>
             <div id="new-link-button-c">
-                <button class="button">Add link</button>
+                <button class="button">添加链接</button>
             </div>
             <div id="add-link-form-c">
-                <label>Title</label><br /><input id="title-c" placeholder="Title here" /><br /><label>URL</label><br /><input
-                    id="url-c" value="http://" /><br /><button class="button" id="add-center">Save Link</button>
+                <label>主题</label><br /><input id="title-c" placeholder="Title here" /><br /><label>URL</label><br /><input
+                    id="url-c" value="https://heiban.me/" /><br /><button class="button" id="add-center">保存链接</button>
             </div>
         </div>
         <div class="col">
-            <h3>Everything else</h3>
+            <h3>其他</h3>
             <ul id="fav-right">
                 <li>
-                    <a href="https://news.ycombinator.com/">Hacker News</a><button class="removebtn">x</button>
+                    <a href="https://heiban.me/int/">国际交流</a><button class="removebtn">x</button>
                 </li>
             </ul>
             <div id="new-link-button-r">
-                <button class="button">Add link</button>
+                <button class="button">添加链接</button>
             </div>
             <div id="add-link-form-r">
-                <label>Title</label><br /><input id="title-r" placeholder="Title here" /><br /><label>URL</label><br /><input
-                    id="url-r" value="http://" /><br /><button class="button" id="add-right">Save Link</button>
+                <label>主题</label><br /><input id="title-r" placeholder="Title here" /><br /><label>URL</label><br /><input
+                    id="url-r" value="https://heiban.me/" /><br /><button class="button" id="add-right">保存链接</button>
             </div>
         </div>
 
@@ -98,7 +120,7 @@
                 mm = '0' + mm
             }
 
-            today = dd + '.' + mm + '.' + yyyy;
+            today = yyyy + '.' + mm + '.' + dd;
 
             date.innerHTML = n + "<br>" + today;
         </script>
