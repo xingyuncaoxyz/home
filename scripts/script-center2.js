@@ -23,7 +23,7 @@
             //reset form
             $title.val("");
             $url.val("http://");
-            $("#add-link-form-c").slideToggle("100");
+            $("#add-link-form-c2").slideToggle("100");
     
         });
     
