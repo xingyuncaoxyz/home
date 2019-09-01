@@ -60,8 +60,8 @@ a:hover {
 .clock{
     line-height: 1.2;    
     font-weight: bold;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-    font-size: 3vw
+    /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    font-size: 3vw*/
 }
 
 label, input,{
